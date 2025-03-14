@@ -9,7 +9,7 @@ class TestFactorial(unittest.TestCase):
         self.assertEqual(factorial(5), 120)
 
     def test_factorial_of_negative_number(self):
-        with self.assertRaisesgit(ValueError):
+        with self.assertRaises(ValueError):
             factorial(-1)
 
 
